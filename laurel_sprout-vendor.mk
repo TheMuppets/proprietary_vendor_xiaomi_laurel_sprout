@@ -1066,7 +1066,6 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     libvidhance \
     miwatermark \
-    consumerir.trinket \
     fingerprint.goodix_fod.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     libgf_hal \
