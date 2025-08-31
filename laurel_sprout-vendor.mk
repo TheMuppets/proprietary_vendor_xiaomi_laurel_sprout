@@ -162,17 +162,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/mibokeh_660_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_660_opencl.bin
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-external \
-    android.hardware.camera.provider@2.4-legacy \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-external-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-external-impl \
-    camera.device@3.5-impl \
-    camera.device@3.6-external-impl \
-    android.hardware.camera.provider@2.4-impl \
     libmmcamera2_frame_algorithm \
     libmmcamera2_is \
     libmmcamera2_q3a_core \
@@ -191,7 +180,6 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libssc \
-    vendor.qti.hardware.camera.device@3.2 \
     vendor.qti.hardware.fingerprint@1.0 \
     camera.trinket \
     libFaceGrade \
